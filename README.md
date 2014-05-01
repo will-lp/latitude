@@ -14,7 +14,7 @@ assert customer instanceof Customer
 assert customer.name == "name"
 ```
 
-(The model classes - Customer, Person, City - used in the tests can be found [here](https://github.com/will-lp/latitude/tree/master/test/org/latitude/test/model))
+<sup>(The model classes - Customer, Person, City - used in the examples can be found [here](https://github.com/will-lp/latitude/tree/master/test/org/latitude/test/model))</sup>
 
 
 The resulting path can be type checked and customized for use within queries or places where field references are needed. An IDE can auto-complete, refactor, find usages and `@TypeChecked` can point mistakes.
