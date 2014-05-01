@@ -2,7 +2,7 @@ package org.latitude.test;
 
 import groovy.util.GroovyTestCase;
 
-class LatitudeTest extends GroovyTestCase {
+class LatitudeAstTest extends GroovyTestCase {
 
 	void testBasic() {
 		assertScript '''
