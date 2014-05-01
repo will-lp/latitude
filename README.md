@@ -77,13 +77,13 @@ assert myString.black.texas.gold == "black.texas.gold"
 It relies on MOP interception, so it won't work with @CompileStatic.
 
 
-Getting and setting property paths in objects
-=============================================
+## Getting and setting property paths in objects
+
 
 Latitude also comes with some helper methods to get and set a chain of properties.
 
-Getters
--------
+### Getters
+
 
 A simple getter:
 
@@ -123,8 +123,8 @@ assert cityName == "Rio de Janeiro"
 ```
 
 
-Setter
-------
+### Setter
+
 
 The standard `Latitude#setChainedProperty` has three parameters, and an optional fourth one to specify a character separator:
 
