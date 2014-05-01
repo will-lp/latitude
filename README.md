@@ -3,7 +3,7 @@ Latitude
 
 A Groovy lib for referenceable properties.
 
-Latitude intercepts an object `getProperty` method. You can create a property path, by chaining getters, and get a string path from it:
+Latitude intercepts object getters to create property paths, easing field references, queries, properties set, etc.
 
 
 ```groovy
@@ -17,7 +17,7 @@ assert customer.name == "name"
 <sup>(The model classes - Customer, Person, City - used in the examples can be found [here](https://github.com/will-lp/latitude/tree/master/test/org/latitude/test/model))</sup>
 
 
-The resulting path can be type checked and customized for use within queries or places where field references are needed. An IDE can auto-complete, refactor, find usages and `@TypeChecked` can point mistakes.
+The resulting path can be type checked and customized for use within queries or where field references are needed. An IDE can auto-complete, refactor, find usages and `@TypeChecked` can point typos.
 
 
 ```groovy
