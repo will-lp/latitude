@@ -1,4 +1,3 @@
-apply plugin: 'eclipse'
 apply plugin: 'groovy'
 
 repositories { 
@@ -9,4 +8,18 @@ dependencies {
   compile 'org.codehaus.groovy:groovy-all:2.2.1'
 	testCompile group: 'junit', name: 'junit', version: '4.+'
 	compile fileTree(dir: 'lib', include: '*.jar')
+}
+
+
+sourceSets {
+	main {
+		groovy {
+			srcDir 'src'
+		}
+	}
+	test {
+		groovy {
+			srcDir 'test'
+		}
+	}
 }
